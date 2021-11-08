@@ -89,5 +89,5 @@ function idInvalidCardCompanies(nestedArrays) {
   console.log(cardCompanies);
   return cardCompanies;
 }
-
-idInvalidCardCompanies(findInvalidCards(batch));
+let nestedArrays = findInvalidCards(batch);
+idInvalidCardCompanies(nestedArrays);
